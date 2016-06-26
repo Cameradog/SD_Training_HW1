@@ -1,2 +1,2 @@
 # SD_Training_HW1
-New Training Example site. Objective: Self introduction site.
+## A example Website of self introduction for 2016 SD training.
