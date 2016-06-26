@@ -1,0 +1,131 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#profile {
+  width: 25%;
+  height: auto;
+  border-radius: 100%;
+  margin-top: -10%;
+  margin-left: 6%;
+  box-shadow: 0px 0px 15px rgba(200, 200, 200, 0.8);
+}
+#profile:hover {
+  width: 30%;
+  height: auto;
+}
+
+#cover {
+  width: 100%;
+  top: 0px;
+  z-index: -1;
+  position: fixed;
+}
+
+.big-word {
+  margin-bottom: 10%;
+  font-size: 8vw;
+  color: rgba(120, 120, 120, 0.5);
+}
+.big-word:hover {
+  color: rgba(120, 120, 120, 1);
+}
+
+.title-name {
+  margin-top: -10%;
+  margin-left: 35%;
+}
+
+.related-title {
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+
+.content {
+  margin: 0px auto;
+  margin-top: 36%;
+  padding: 10px;
+  width: 80%;
+  background-color: rgba(250, 250, 250, 1);
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(200, 200, 200, 0.8);
+}
+.content.section2 {
+  margin-top: 5%;
+}
+
+.text-content {
+  margin-left: 3%;
+  font-size: 1.5vw;
+}
+
+h2.words {
+  margin-left: 3%;
+  color: rgba(0, 0, 0, 0.8);
+}
+h2.words:hover {
+  margin-left: 3%;
+  color: rgba(100, 100, 100, 0.8);
+}
+
+label {
+  padding: 1%;
+  font-size: 2vw;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 1px 5px rgba(200, 200, 200, 0.8);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(100, 100, 100, 0.5);
+}
+
+label#name-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 1);
+}
+
+label#grade-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 220, 0, 1);
+}
+
+label#hobby-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 255, 1);
+}
+
+label#skill-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(200, 130, 200, 1);
+}
+
+label#photo-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(200, 130, 130, 1);
+}
+
+label#video-label:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(130, 130, 200, 1);
+}
+.photo {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  overflow: scroll;
+}
+
+.work-photo {
+  height: 20vh;
+}
+.work-photo:hover {
+  height: 40vh;
+}
+
+.iframe {
+  margin-top: 3%;
+  margin-bottom: 10%;
+  width: 100%;
+  height: 50vw;
+}
